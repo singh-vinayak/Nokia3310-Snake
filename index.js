@@ -11,7 +11,7 @@ let score = 0
 let intervalTime = 1000
 let speed = 0.9
 let timerId = 0
-
+gameOver.style.display = "none"
 function createGrid() {
     //create 100 of these elements with a for loop
     for (let i = 0; i < width * width; i++) {
@@ -30,7 +30,6 @@ createGrid()
 currentSnake.forEach(index => squares[index].classList.add('snake'))
 
 function startGame() {
-    gameOver.style.display="none"
     grid.style.background=(181,181,181)
     //remove the snake
     currentSnake.forEach(index => squares[index].classList.remove('snake'))
