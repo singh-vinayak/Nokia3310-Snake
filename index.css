@@ -1,0 +1,64 @@
+.container{
+    margin:10% 40% 10% 40%;
+}
+
+
+html, body {
+    padding: 10;
+    background: linear-gradient(135deg,rgb(0, 163, 68),rgb(0, 143, 161));
+}
+
+h1{
+    margin-left: 15px;
+}
+button{
+    margin-left:30px;
+    cursor: pointer;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    background: rgb(187, 186, 186);
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: rgb(0, 112, 0);
+}
+
+.apple {
+    background-color: rgb(255, 0, 0);
+    
+}
+
+#start{
+    font-size: 15px;
+    padding:15px;
+    background: #d400ff;
+    border: 1px ;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.gameOver{
+    color:rgb(255, 255, 255);
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background: red;
+    text-align: center;
+    border: 1px inset red;
+    border-radius: 20px;
+    padding-top: 15px;
+}
