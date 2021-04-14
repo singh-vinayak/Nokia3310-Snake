@@ -33,11 +33,17 @@ button{
 }
 
 .snake {
-    background-color: rgb(0, 112, 0);
+    box-sizing:border-box;
+    background-image: linear-gradient(20deg, #009e2d 25%, #176100 25%, #176100 50%, #009e2d 50%, #009e2d 75%, #176100 75%, #176100 100%);
+    border:1px solid rgb(0,112,0);
+    border-radius: 50%;
 }
 
 .apple {
-    background-color: rgb(255, 0, 0);
+    border:1px solid rgb(255,0,0);
+    border-radius: 40%;
+    box-sizing:border-box;
+    background-image: linear-gradient(0deg, #ff0000 94%, #00ff00 6%);
     
 }
 
